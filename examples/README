@@ -1,1 +1,4 @@
 append([img])                       拼接图片
+crop(x, y)                          裁剪图片 x:宽度 y:高度
+extent(x, y)                        裁剪图片或resize之后的图片面积大小  x:宽度 y:高度
+bitdepth(n)                         图片色深  n越小,图片越黑
