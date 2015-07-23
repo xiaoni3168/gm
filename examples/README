@@ -2,3 +2,7 @@ append([img])                       拼接图片
 crop(x, y)                          裁剪图片 x:宽度 y:高度
 extent(x, y)                        裁剪图片或resize之后的图片面积大小  x:宽度 y:高度
 bitdepth(n)                         图片色深  n越小,图片越黑
+blur(radius, [sigma])               图片模糊化 radius:模糊半径 sigma:模糊倍数 (模糊度=radius x sigma)
+charcoal(n)                         炭描  n越大炭描越详细
+chop(w, h, x, y)                    裁剪图片,保留裁剪之后的图片  w裁剪矩形宽度,h裁剪矩形高度
+colorize(r, g, b)                   图片变色  r g b (0 ~ 255)
